@@ -6,18 +6,18 @@ import axios from "axios";
 import { toast } from "sonner";
 import { useRouter } from "next/navigation";
 
-interface User {
-  name: string;
-  email: string;
-  age: string;
-  mobile: string;
-  gender: string;
-  state: string;
-  city: string;
-  address: string;
-  country: string;
-  _id: string;
-}
+// interface User {
+//   name: string;
+//   email: string;
+//   age: string;
+//   mobile: string;
+//   gender: string;
+//   state: string;
+//   city: string;
+//   address: string;
+//   country: string;
+//   _id: string;
+// }
 
 export default function UserForm({ user }: { user: any }) {
   console.log(user, "lon");
